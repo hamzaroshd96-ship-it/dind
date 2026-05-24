@@ -1,4 +1,4 @@
-export REPOSITORY=github
+export REPOSITORY=$(basename "$PWD")
 
 rm --recursive --force /tmp/$REPOSITORY
 mkdir --parents /tmp/$REPOSITORY/windows
